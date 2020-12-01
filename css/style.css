@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Roboto:wght@100&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+body {
+	font-family: 'Roboto', serif;
+	font-size: 20px;
+	margin: 0px;
+	position: center;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+a {
+	color: #8db596;
+	font-family: 'Roboto', serif;
+	text-decoration: none
+	font-weight: bold;
+}
+
+a:hover {
+	color: #bedbbb
+}
+
+	.list-inline {
+		position: center;
+		list-style: none;
+		padding-left: 0px
+	}
+
+	.list-inline li {
+		display: inline;
+		padding: 10px;
+		font-size: 40px;
+	}
+
+	#social-media p {
+		margin-top: 80px
+	}
